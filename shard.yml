@@ -1,0 +1,19 @@
+name: ironarachne
+version: 0.1.0
+
+authors:
+  - Ben Overmyer <ben@overmyer.net>
+
+targets:
+  ironarachne:
+    main: src/ironarachne.cr
+
+dependencies:
+  crinja:
+    github: straight-shoota/crinja
+  orion:
+    github: obsidian/orion
+
+crystal: 0.32.1
+
+license: MIT
