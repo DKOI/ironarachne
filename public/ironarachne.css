@@ -3,6 +3,24 @@ html, body {
 }
 
 div.container {
-  width: 90%;
+  width: 50%;
   margin: 0 auto;
+}
+
+nav.nav-primary {
+  width: 50%;
+  margin: 0 auto;
+}
+
+nav.nav-primary > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.nav-primary ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }

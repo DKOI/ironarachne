@@ -17,7 +17,9 @@ class RootController
 
     blog_response.data.posts.each do |p|
       body_html = Markd.to_html(p.body)
-      n = {"title" => p.title, "body" => body_html, "published" => p.created}
+      publish_time = Time.parse(p.created, "%Y-%m-%dT%H:%M:%SZ", Time::Location.load("America/Chicago"))
+      published_at = publish_time.to_s("%b %-d, %Y at %l:%M %p")
+      n = {"title" => p.title, "body" => body_html, "published" => published_at}
       posts << n
     end
 
