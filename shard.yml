@@ -13,6 +13,8 @@ dependencies:
     github: straight-shoota/crinja
   orion:
     github: obsidian/orion
+  markd:
+    github: icyleaf/markd
 
 crystal: 0.32.1
 

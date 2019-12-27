@@ -8,6 +8,10 @@ shards:
     github: phoffer/inflector.cr
     version: 0.1.8
 
+  markd:
+    github: icyleaf/markd
+    version: 0.2.0
+
   mime-types:
     github: jwaldrip/mime-types-cr
     version: 1.3.0

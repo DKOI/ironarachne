@@ -6,6 +6,6 @@ class RegionController
 
   def index
     data = {"page" => { "title" => "Regions"}}
-    view = render_html("regions/index.html.j2", data, context)
+    render_html("regions/index.html.j2", data, context)
   end
 end
